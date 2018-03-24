@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jiangpeng/Desktop/HooC/main.cpp
+iostream
+-
+ctime
+-
+cstdlib
+-
+iomanip
+-
+
+/Users/jiangpeng/Desktop/HooC/math/math001.cpp
+stdio.h
+-
+math.h
+-
+string.h
+-
+time.h
+-
+iostream
+-
+
+/Users/jiangpeng/Desktop/HooC/support.cpp
+iostream
+-
+
